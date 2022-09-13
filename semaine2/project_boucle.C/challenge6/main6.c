@@ -3,18 +3,24 @@
 
 int main()
 {
-    int nmb,i,s=0;
+    int nmb,i,s=0,r;
     printf("\t------------------ HELLO ------------------\n");
     printf("\t veuillez entrer un nombre :\n");
     scanf("\t%d",&nmb);
     printf("\t------------------ RESULTAT ------------------\n");
     for(i=2;i<=nmb;i++){
-        if(i%2==0)
-            printf("\t%d : n'est pas  premier \n",i);
+        for (r = 1; r<i; r++)
+        
+        {
+            if(i%r==0)
+            s++;        }
+        
+        if(s==2)
+            printf("\t%d :est  premier \n",r);
             else{
-            printf("\t%d : est  premier \n",i);
+            printf("\t%d : n'est pas premier \n",r);
             }
-
+        s=0;
 
     }
         return 0;
