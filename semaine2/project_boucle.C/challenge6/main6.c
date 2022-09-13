@@ -3,12 +3,12 @@
 
 int main()
 {
-    int nmb,i,s,r;
+    int nmb,i,s=0,r;
     printf("\t------------------ HELLO ------------------\n");
     printf("\t veuillez entrer un nombre :\n");
     scanf("\t%d",&nmb);
     printf("\t------------------ RESULTAT ------------------\n");
-    for(i=2; i<nmb; i++){
+    for(i=2; i<=nmb; i++){
         for (r = 1; r<=i; r++)
         {
             if(i%r==0)
