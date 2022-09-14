@@ -22,8 +22,14 @@ int main()
     int a ,b;
     printf("veulliez entrer un nombre : \n");
     scanf("%d",&a);
+    ici :
     printf("veulliez entrer un nombre : \n");
     scanf("%d",&b);
+    if (b<=0)
+    {
+        goto ici ;
+    }
+    
     printf("\t--------------RESULTAT--------------\n");
     if (divededby(a,b)==true)
         printf("voila le reste de la division %d est premier", a/b);
