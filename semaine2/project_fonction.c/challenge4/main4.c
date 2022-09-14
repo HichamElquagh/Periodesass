@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<stdbool.h>
-
+int res1;
 bool divededby(int x,int y ){
- int res1,i,s=0;
+ int i,s=0;
  res1 =x/y;
 
  for(i=1;i<=res1;i++){
@@ -16,7 +16,6 @@ bool divededby(int x,int y ){
     return false;
  }
 }
-
 int main()
 {
     int a ,b;
@@ -32,15 +31,10 @@ int main()
     
     printf("\t--------------RESULTAT--------------\n");
     if (divededby(a,b)==true)
-        printf("voila le reste de la division %d est premier", a/b);
+        printf("voila le reste de la division %d est premier", res1);
     else{
-        printf("voila le reste de la division %d n'est pas premier" , a/b);
+        printf("voila le reste de la division %d n'est pas premier" , res1);
     }
-
-
-
-
-
 
     return 0;
 }
