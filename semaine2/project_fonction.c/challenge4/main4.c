@@ -26,21 +26,10 @@ int main()
     scanf("%d",&b);
     printf("\t--------------RESULTAT--------------\n");
     if (divededby(a,b)==true)
-        printf("voila le reste de la division %d est premier",a/b);
+        printf("voila le reste de la division %d est premier", a/b);
     else{
-        printf("voila le reste de la division %d n'est pas premier",a/b);
+        printf("voila le reste de la division %d n'est pas premier" , a/b);
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
