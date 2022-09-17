@@ -20,9 +20,9 @@ int main()
     scanf("%d",&telephone);
     printf("\n");
     printf("\t\tvoila votre nome est: %s \n",nom);
-    printf("\t\tvoila votre nome est: %s \n",prenom);
-    printf("\t\tvoila votre nome est: %s \n",sexe);
-    printf("\t\tvoila votre nome est: %d \n",age);
-    printf("\t\tvoila votre nome est: %d \n",telephone);
+    printf("\t\tvoila votre prenom est: %s \n",prenom);
+    printf("\t\tvoila votre sexe est: %s \n",sexe);
+    printf("\t\tvoila votre age est: %d \n",age);
+    printf("\t\tvoila votre telephone est: %d \n",telephone);
     return 0;
 }
